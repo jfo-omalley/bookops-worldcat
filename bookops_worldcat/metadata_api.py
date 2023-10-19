@@ -17,6 +17,9 @@ from .errors import (
 from .query import Query
 from .utils import verify_oclc_number, verify_oclc_numbers
 
+def test():
+    print("test")
+
 
 class MetadataSession(WorldcatSession):
     """OCLC Metadata API wrapper session. Inherits `requests.Session` methods"""
